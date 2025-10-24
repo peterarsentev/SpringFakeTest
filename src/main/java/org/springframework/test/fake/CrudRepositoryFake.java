@@ -1,11 +1,7 @@
 package org.springframework.test.fake;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+import javax.persistence.Id;
 import org.springframework.data.repository.CrudRepository;
-
-import java.lang.annotation.Annotation;
-import java.lang.reflect.Field;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
